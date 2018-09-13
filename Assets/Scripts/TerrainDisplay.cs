@@ -44,6 +44,7 @@ public class TerrainDisplay : MonoBehaviour {
 
         noiseTexture.SetPixels(colorMap);
         noiseTexture.Apply();
+        
 
         Renderer r = GetComponent<Renderer>();
         if (r == null) return;
